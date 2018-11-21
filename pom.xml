@@ -53,12 +53,13 @@
 
     <dependency>
       <groupId>com.alipay.sofa</groupId>
-      <artifactId>sofa-tracer-httpclient-plugin</artifactId>
+      <artifactId>sofa-tracer-zipkin-plugin</artifactId>
       <version>${sofa.tracer.version}</version>
     </dependency>
+
     <dependency>
       <groupId>com.alipay.sofa</groupId>
-      <artifactId>sofa-tracer-zipkin-plugin</artifactId>
+      <artifactId>sofa-tracer-httpclient-plugin</artifactId>
       <version>${sofa.tracer.version}</version>
     </dependency>
 
