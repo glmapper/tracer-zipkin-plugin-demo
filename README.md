@@ -104,30 +104,29 @@ java -jar zipkin.jar
 
 启动成功之后的界面：
 
-![image-20181121155843918](/Users/guolei.sgl/Library/Application Support/typora-user-images/image-20181121155843918.png)
+![image-20181121155843918](https://github.com/glmapper/tracer-zipkin-plugin-demo/blob/master/src/main/webapp/image/index.png)
 
 ## 配置&启动tomcat
 
 1、配置 Server
 
-![image-20181121160008779](/Users/guolei.sgl/Library/Application Support/typora-user-images/image-20181121160008779.png)
+![image-20181121160008779](https://github.com/glmapper/tracer-zipkin-plugin-demo/blob/master/src/main/webapp/image/image-20181121160008779.png)
 
 2、配置 Deployment
 
-![image-20181121160026061](/Users/guolei.sgl/Library/Application Support/typora-user-images/image-20181121160026061.png)
+![image-20181121160026061](https://github.com/glmapper/tracer-zipkin-plugin-demo/blob/master/src/main/webapp/image/image-20181121160026061.png)
 
 3、启动tomcat
 
-![image-20181121160713218](/Users/guolei.sgl/Library/Application Support/typora-user-images/image-20181121160713218.png)
+![image-20181121160713218](https://github.com/glmapper/tracer-zipkin-plugin-demo/blob/master/src/main/webapp/image/image-20181121160713218.png)
 
 
 ## 访问资源&上报展示
 
 1、访问资源
 
-![image-20181121160916361](/Users/guolei.sgl/Library/Application Support/typora-user-images/image-20181121160916361.png)
+![image-20181121160916361](https://github.com/glmapper/tracer-zipkin-plugin-demo/blob/master/src/main/webapp/image/image-20181121160916361.png)
 
 2、zipkin 展示
 
-![image-20181121160851771](/Users/guolei.sgl/Library/Application Support/typora-user-images/image-20181121160851771.png)
-
+![image-20181121160851771](https://github.com/glmapper/tracer-zipkin-plugin-demo/blob/master/src/main/webapp/image/image-20181121162300360.png)
