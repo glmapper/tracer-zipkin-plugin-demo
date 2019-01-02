@@ -1,37 +1,37 @@
-# ÔÚ Spring ¹¤³ÌÖĞÊ¹ÓÃ SOFATracer
+# åœ¨ Spring å·¥ç¨‹ä¸­ä½¿ç”¨ SOFATracer
 
-ÔÚ¹Ù·½ÎÄµµ [Ê¹ÓÃ SOFATracer Ô¶³Ì»ã±¨Êı¾İµ½ Zipkin](https://github.com/alipay/sofa-tracer/tree/master/tracer-samples/tracer-sample-with-zipkin) ÖĞÑİÊ¾ÁËÈçºÎÔÚSOFABoot/SpringBoot ¹¤³Ì³ÉÊ¹ÓÃzipkinÀ´ÉÏ±¨Êı¾İ¡£ÊµÀıÉÏ SOFATracer µÄ²å¼ş³ıÁËÔÚ SOFABoot/SpringBoot Ê¹ÓÃÖ®Íâ£¬Ò²¿ÉÒÔÍ¨¹ıÒıÈëµ¥¶ÀµÄ²å¼şÀ´Ê¹ÓÃ¡£±¾ÎÄÖĞÒÔÏÂÃæÈı¸ö²å¼şÊ¹ÓÃÎªÀı£¬ÔÚ Spring ¹¤³ÌÖĞ½«Êı¾İÉÏ±¨µ½zipkin¡£
+åœ¨å®˜æ–¹æ–‡æ¡£ [ä½¿ç”¨ SOFATracer è¿œç¨‹æ±‡æŠ¥æ•°æ®åˆ° Zipkin](https://github.com/alipay/sofa-tracer/tree/master/tracer-samples/tracer-sample-with-zipkin) ä¸­æ¼”ç¤ºäº†å¦‚ä½•åœ¨SOFABoot/SpringBoot å·¥ç¨‹æˆä½¿ç”¨zipkinæ¥ä¸ŠæŠ¥æ•°æ®ã€‚å®ä¾‹ä¸Š SOFATracer çš„æ’ä»¶é™¤äº†åœ¨ SOFABoot/SpringBoot ä½¿ç”¨ä¹‹å¤–ï¼Œä¹Ÿå¯ä»¥é€šè¿‡å¼•å…¥å•ç‹¬çš„æ’ä»¶æ¥ä½¿ç”¨ã€‚æœ¬æ–‡ä¸­ä»¥ä¸‹é¢ä¸‰ä¸ªæ’ä»¶ä½¿ç”¨ä¸ºä¾‹ï¼Œåœ¨ Spring å·¥ç¨‹ä¸­å°†æ•°æ®ä¸ŠæŠ¥åˆ°zipkinã€‚
 
 - sofa-tracer-httpclient-plugin
 - sofa-tracer-springmvc-plugin
 - sofa-tracer-zipkin-plugin
 
-## Ç°ÌáÌõ¼ş
+## å‰ææ¡ä»¶
 
-* Zipkin Server µÄ´î½¨¿ÉÒÔ [²Î¿¼´ËÎÄµµ](https://zipkin.io/) ½øĞĞÅäÖÃºÍ·şÎñ¶ËµÄ´î½¨¡£
-* ĞÂ½¨Spring¹¤³Ì  [tracer-zipkin-plugin-demo](https://github.com/glmapper/tracer-zipkin-plugin-demo/tree/master)¡£
+* Zipkin Server çš„æ­å»ºå¯ä»¥ [å‚è€ƒæ­¤æ–‡æ¡£](https://zipkin.io/) è¿›è¡Œé…ç½®å’ŒæœåŠ¡ç«¯çš„æ­å»ºã€‚
+* æ–°å»ºSpringå·¥ç¨‹  [tracer-zipkin-plugin-demo](https://github.com/glmapper/tracer-zipkin-plugin-demo/tree/master)ã€‚
 
 * SOFATracer Github [ sofa-tracer ](https://github.com/alipay/sofa-tracer)
 
 
-##  ÒıÈë²å¼ş
+##  å¼•å…¥æ’ä»¶
 
-ÓÉÓÚ zipkin ²å¼şÊÇÔÚ v2.3.0 °æ±¾²ÅÌá¹©£¬ÔÚÒıÈëtracerµÄ²å¼şÊ±£¬°æ±¾²»ÄÜµÍÓÚ v2.3.0 ¡£
+ç”±äº zipkin æ’ä»¶æ˜¯åœ¨ v2.3.0 ç‰ˆæœ¬æ‰æä¾›ï¼Œåœ¨å¼•å…¥tracerçš„æ’ä»¶æ—¶ï¼Œç‰ˆæœ¬ä¸èƒ½ä½äº v2.3.0 ã€‚
 
 ```xml
-	<!-- springmvc ²å¼ş-->
+	<!-- springmvc æ’ä»¶-->
 	<dependency>
       <groupId>com.alipay.sofa</groupId>
       <artifactId>sofa-tracer-springmvc-plugin</artifactId>
       <version>${sofa.tracer.version}</version>
     </dependency>
-    <!-- zipkin ²å¼ş-->
+    <!-- zipkin æ’ä»¶-->
     <dependency>
       <groupId>com.alipay.sofa</groupId>
       <artifactId>sofa-tracer-zipkin-plugin</artifactId>
       <version>${sofa.tracer.version}</version>
     </dependency>
-    <!-- httpclient ²å¼ş-->
+    <!-- httpclient æ’ä»¶-->
     <dependency>
       <groupId>com.alipay.sofa</groupId>
       <artifactId>sofa-tracer-httpclient-plugin</artifactId>
@@ -50,16 +50,16 @@
     </dependency>
 ```
 
-> sofa-tracer-springmvc-plugin ÊÇ»ùÓÚ ±ê×¼ Servlet ÊµÏÖµÄ£¬Òò´Ë¼´Ê¹ÊÇ·Ç SpringMvc ¹¤³Ì£¬Ö»ÒªÊÇ±ê×¼µÄServlet ¹¤³Ì£¬¾ù¿ÉÒÔÊ¹ÓÃ¸Ã²å¼ş¡£
+> sofa-tracer-springmvc-plugin æ˜¯åŸºäº æ ‡å‡† Servlet å®ç°çš„ï¼Œå› æ­¤å³ä½¿æ˜¯é SpringMvc å·¥ç¨‹ï¼Œåªè¦æ˜¯æ ‡å‡†çš„Servlet å·¥ç¨‹ï¼Œå‡å¯ä»¥ä½¿ç”¨è¯¥æ’ä»¶ã€‚
 
 
-## ÅäÖÃ
+## é…ç½®
 
-Õâ²¿·Ö°üÀ¨ filter ÅäÖÃ¡¢ÅäÖÃÎÄ¼şÅäÖÃ¡¢zipkin beanÅäÖÃµÈ¡£
+è¿™éƒ¨åˆ†åŒ…æ‹¬ filter é…ç½®ã€é…ç½®æ–‡ä»¶é…ç½®ã€zipkin beané…ç½®ç­‰ã€‚
 
-### Filter ÅäÖÃ
+### Filter é…ç½®
 
-ÔÚ web.xml ÖĞÅäÖÃ sofa-tracer-springmvc-plugin ²å¼şµÄ Filter¡£ 
+åœ¨ web.xml ä¸­é…ç½® sofa-tracer-springmvc-plugin æ’ä»¶çš„ Filterã€‚ 
 
 ```xml
 <filter>
@@ -74,59 +74,59 @@
 </filter-mapping>
 ```
 
-### ÅäÖÃÎÄ¼ş
+### é…ç½®æ–‡ä»¶
 
-ÔÚ resources Ä¿Â¼ÏÂĞÂ½¨ sofa.tracer.properties ÎÄ¼ş£¬²¢ÇÒÔö¼Ó zipkin ÉÏ±¨ËùĞèµÄÅäÖÃ£º
+åœ¨ resources ç›®å½•ä¸‹æ–°å»º sofa.tracer.properties æ–‡ä»¶ï¼Œå¹¶ä¸”å¢åŠ  zipkin ä¸ŠæŠ¥æ‰€éœ€çš„é…ç½®ï¼š
 
 ```properties
 com.alipay.sofa.tracer.zipkin.enabled=true
 com.alipay.sofa.tracer.zipkin.baseUrl=http://localhost:9411
 ```
 
-### zipkin bean ÅäÖÃ
+### zipkin bean é…ç½®
 
-ÔÚ Spring ¹¤³ÌÖĞ£¬ĞèÒªÅäÖÃÒ»¸ö bean£¬ÓÃÓÚ³õÊ¼»¯ zipkin ÉÏ±¨ËùĞèµÄĞÅÏ¢¡£
+åœ¨ Spring å·¥ç¨‹ä¸­ï¼Œéœ€è¦é…ç½®ä¸€ä¸ª beanï¼Œç”¨äºåˆå§‹åŒ– zipkin ä¸ŠæŠ¥æ‰€éœ€çš„ä¿¡æ¯ã€‚
 
 ```xml
-<bean id="zipkinReportRegisterBean" class="com.alipay.sofa.tracer.spring.zipkin.initialize.ZipkinReportRegisterBean"/>
+<bean id="zipkinReportRegisterBean" class="com.alipay.sofa.tracer.plugins.zipkin.initialize.ZipkinReportRegisterBean"/>
 ```
 
 
 
-## Æô¶¯ zipkin server
+## å¯åŠ¨ zipkin server
 
-·Ö±ğÖ´ĞĞÏÂÃæÁ½¸öÃüÁî£¬Æô¶¯ zipkin server£¬Ä¬ÈÏ¶Ë¿ÚÊÇ 9411
+åˆ†åˆ«æ‰§è¡Œä¸‹é¢ä¸¤ä¸ªå‘½ä»¤ï¼Œå¯åŠ¨ zipkin serverï¼Œé»˜è®¤ç«¯å£æ˜¯ 9411
 
 ```
 curl -sSL https://zipkin.io/quickstart.sh | bash -s
 java -jar zipkin.jar
 ```
 
-Æô¶¯³É¹¦Ö®ºóµÄ½çÃæ£º
+å¯åŠ¨æˆåŠŸä¹‹åçš„ç•Œé¢ï¼š
 
 ![image-20181121155843918](https://github.com/glmapper/tracer-zipkin-plugin-demo/blob/master/src/main/webapp/image/index.png)
 
-## ÅäÖÃ&Æô¶¯tomcat
+## é…ç½®&å¯åŠ¨tomcat
 
-1¡¢ÅäÖÃ Server
+1ã€é…ç½® Server
 
 ![image-20181121160008779](https://github.com/glmapper/tracer-zipkin-plugin-demo/blob/master/src/main/webapp/image/image-20181121160008779.png)
 
-2¡¢ÅäÖÃ Deployment
+2ã€é…ç½® Deployment
 
 ![image-20181121160026061](https://github.com/glmapper/tracer-zipkin-plugin-demo/blob/master/src/main/webapp/image/image-20181121160026061.png)
 
-3¡¢Æô¶¯tomcat
+3ã€å¯åŠ¨tomcat
 
 ![image-20181121160713218](https://github.com/glmapper/tracer-zipkin-plugin-demo/blob/master/src/main/webapp/image/image-20181121160713218.png)
 
 
-## ·ÃÎÊ×ÊÔ´&ÉÏ±¨Õ¹Ê¾
+## è®¿é—®èµ„æº&ä¸ŠæŠ¥å±•ç¤º
 
-1¡¢·ÃÎÊ×ÊÔ´
+1ã€è®¿é—®èµ„æº
 
 ![image-20181121160916361](https://github.com/glmapper/tracer-zipkin-plugin-demo/blob/master/src/main/webapp/image/image-20181121160916361.png)
 
-2¡¢zipkin Õ¹Ê¾
+2ã€zipkin å±•ç¤º
 
 ![image-20181121160851771](https://github.com/glmapper/tracer-zipkin-plugin-demo/blob/master/src/main/webapp/image/image-20181121162300360.png)
