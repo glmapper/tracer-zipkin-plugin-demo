@@ -9,7 +9,7 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <sofa.tracer.version>2.2.2</sofa.tracer.version>
+    <sofa.tracer.version>2.3.0</sofa.tracer.version>
     <spring.version>4.3.18.RELEASE</spring.version>
   </properties>
 

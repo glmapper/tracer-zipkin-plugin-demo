@@ -8,5 +8,5 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="zipkinReportRegisterBean" class="com.alipay.sofa.tracer.spring.zipkin.initialize.ZipkinReportRegisterBean"/>
+    <bean id="zipkinReportRegisterBean" class="com.alipay.sofa.tracer.plugins.zipkin.initialize.ZipkinReportRegisterBean"/>
 </beans>
